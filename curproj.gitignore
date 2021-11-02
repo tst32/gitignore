@@ -1,6 +1,9 @@
 #ignore all
-* 
+ 
+# printf "!" >>.gitignore ; echo "${PWD##*/}/" >>.gitignore
+# printf "!" >>.gitignore ; echo "${PWD##*/}/*" >>.gitignore
 
+*
 #not curproj dir and its subfolders
 !curproj
 !curproj/*
