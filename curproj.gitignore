@@ -1,0 +1,6 @@
+#ignore all
+* 
+
+#not curproj dir and its subfolders
+!curproj
+!curproj/*
